@@ -1,0 +1,163 @@
+/*
+============================================================
+
+	Theme Name: Trifink 2
+	Theme URI: http://#
+	Author: iLifebelt Devolution
+	Author URI: http://#
+	Version: 2
+	Template: rigid
+	Text Domain: rigid
+	
+============================================================
+*/
+
+
+ul#topnav2 > li a{
+	font-size: 18px;
+}
+.searchb-trig{
+width: 500px;
+height: 60px;
+display: block;
+margin: 10px;
+    margin-top: 10px;
+
+margin-top: 20px;
+}
+.search-b{float: left; width: 30%;}
+
+#footer input{
+	width: 100%; background: #ededed; border-radius: 15px; border-bottom: 0px;
+}
+
+#footer input[type="submit"]{
+	margin-top: 0px;
+padding: 7px;
+background: #178DEE;
+}
+
+#powered .inner {
+    font-size: 11px;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: #fafafa;
+}
+
+#footer > .inner {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#powered .inner li a {
+    color: #0006;
+}
+
+.blog-post-meta .post-meta-bottom{
+	display: none !important;
+}
+
+body.single-post .rigid_title_holder .blog-post-meta {
+ display: none;
+}
+.rigid-share-links{
+	display: none;
+}
+
+.post-ratings{
+	padding: 15px 10px 15px 0px;
+}
+
+.page .post-ratings{
+	display: none;
+}
+
+.social-foot .vc_icon_element {
+    float: left;
+    margin-left: 5px;
+}
+
+
+
+#cart-module a.cart-contents:before {
+    content: "\f07a";
+}
+
+#footer .foot-inc{
+	color: black !important;
+    cursor: none;
+}
+#powered .inner li.foot-inc a {
+    color: #000;
+}
+
+.wpcf7-form-control-wrap select{
+	    height: 37px;
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+}
+
+
+.wpcf7 span {
+    color: #ccc;
+    font-size: 11px;
+}
+
+input[type="checkbox"], input[type="checkbox"] + label {
+    vertical-align: middle;
+    margin-top: 6px;
+    margin-bottom: 0px;
+    float: left;
+    width: 10%;
+}
+
+td div.quantity input.rigid-qty-plus, td div.quantity input.rigid-qty-minus {
+    display: block !important;
+        margin-top: -5px !important;
+
+}
+
+
+.um-field-password_reset_text{display: none;}
+.widget label.screen-reader-text, .quantity .screen-reader-text {
+    display: block !important;
+}
+
+
+
+body.woocommerce-cart form.woocommerce-cart-form {
+    display: inline-block;
+    width: calc(100% - 305px);
+    padding-right: 30px;
+}
+
+body.woocommerce-cart .cart-collaterals, form.checkout.woocommerce-checkout #order_review {
+    width: 300px;
+    display: inline-block;
+    padding: 40px;
+    background-color: #fafafa;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+
+ul#topnav2 {
+    float: left;
+    width: 100%;
+}
+#header #menu {
+    z-index: 1900;
+    float: left;
+    width: 100%;
+}
+
+/*  
+	JUST FOR MOBILE
+*/
+@media only screen and (min-width: 300px) and (max-width: 379px) {
+.search-b{display: none;}
+
+
+
+}
